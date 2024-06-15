@@ -2,6 +2,6 @@
 
 public interface IProfileRepository
 {
-    User GetUserById(UserId id);
-    User GetUserByName(string username);
+    ValueTask<User> GetUserByIdAsync(UserId id);
+    ValueTask<User> GetUserByNameAsync(string username);
 }
