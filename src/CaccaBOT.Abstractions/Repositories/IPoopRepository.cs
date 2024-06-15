@@ -1,6 +1,4 @@
-﻿using CaccaBOT.Abstractions.Primitives;
-
-namespace CaccaBOT.Abstractions.Repositories;
+﻿namespace CaccaBOT.Abstractions.Repositories;
 
 public interface IPoopRepository
 {
